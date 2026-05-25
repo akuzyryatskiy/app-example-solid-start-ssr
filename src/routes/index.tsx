@@ -3,7 +3,7 @@ import "../app.css";
 export default function Home() {
   return (
     <main style={{ "max-width": "720px", margin: "3rem auto", "font-family": "system-ui, sans-serif", "line-height": 1.6 }}>
-      <h1>SolidStart SSR Example</h1>
+      <h1>Timeweb Cloud + SolidStart SSR = ❤️</h1>
       <p>
         Репозиторий: <strong>app-example-solid-start-ssr</strong>
       </p>
