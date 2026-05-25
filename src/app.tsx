@@ -1,16 +1,12 @@
-import './app.css';
+import { Router } from "@solidjs/router";
+import { FileRoutes } from "@solidjs/start/router";
+import { Suspense } from "solid-js";
+import "./app.css";
 
 export default function App() {
   return (
-    <main style={{ 'max-width': '720px', margin: '3rem auto', 'font-family': 'system-ui, sans-serif', 'line-height': 1.6 }}>
-      <h1>SolidStart SSR Example</h1>
-      <p>Репозиторий: <strong>app-example-solid-start-ssr</strong></p>
-      <p>Пример SolidStart-проекта для ssr-режима.</p>
-      <ul>
-        <li>Фреймворк: SolidStart</li>
-        <li>Сборка: <code>npm run build</code></li>
-        <li>Серверный запуск: <code>node .output/server/index.mjs</code></li>
-      </ul>
-    </main>
+    <Router root={(props) => <Suspense>{props.children}</Suspense>}>
+      <FileRoutes />
+    </Router>
   );
 }

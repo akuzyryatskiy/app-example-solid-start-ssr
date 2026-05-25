@@ -2,7 +2,7 @@
 
 # SolidStart
 
-Пример приложения [SolidStart](https://www.solidjs.com) для **Timeweb Cloud Apps** (SSR mode).
+Пример приложения [SolidStart](https://www.solidjs.com) v1 для **Timeweb Cloud Apps** (SSR mode).
 
 :rocket: [Создать свой Apps](https://timeweb.cloud/my/apps/create)
 
